@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:contador/src/pages/home_page.dart';
+
+// nuestras importaciones
+import 'src/pages/home_page.dart';
 
 class MyApp extends StatelessWidget {
   @override
