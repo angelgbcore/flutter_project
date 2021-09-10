@@ -20,7 +20,7 @@ class HomePage extends StatelessWidget {
             style: estiloTexto,
           ),
           Text(
-            conteo.toString(),
+            '$conteo',
             style: estiloTexto,
           ),
         ]),
