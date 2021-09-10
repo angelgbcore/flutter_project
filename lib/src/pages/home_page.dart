@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-class HomePage extends StatefulWidget {
+class HomePage extends StatelessWidget {
   final estiloTexto = new TextStyle(
     fontSize: 25,
   );
@@ -29,7 +29,7 @@ class HomePage extends StatefulWidget {
         child: Icon(Icons.add),
         onPressed: () {
           print('Hola mundo!');
-          conteo = conteo + 1;
+          //conteo = conteo + 1;
         },
       ),
     );
