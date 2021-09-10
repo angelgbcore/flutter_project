@@ -24,7 +24,9 @@ class HomePage extends StatelessWidget {
           ),
         ]),
       ),
-      floatingActionButton: Text('hla'),
+      floatingActionButton: IconButton(
+        icon: Icon('home'),
+      ),
     );
   }
 }
