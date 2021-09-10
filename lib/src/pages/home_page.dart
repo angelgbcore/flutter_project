@@ -9,6 +9,6 @@ class HomePage extends StatelessWidget {
         ),
         body: Center(
           child: Text('Hola mundo'),
-        ));
-  }
+        )
+    );
 }
