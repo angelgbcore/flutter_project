@@ -9,7 +9,9 @@ class HomePage extends StatelessWidget {
           centerTitle: true,
         ),
         body: Center(
-          child: Text('Hola carnal'),
+          child: Column(children: <Widget>[
+            Text('Número de taps:'),
+          ]),
         ));
   }
 }
