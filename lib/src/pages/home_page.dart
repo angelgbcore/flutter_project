@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 class HomePage extends StatelessWidget {
   final estiloTexto = new TextStyle(
-    fontSize: 30,
+    fontSize: 25,
   );
 
   @override
