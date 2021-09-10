@@ -25,7 +25,7 @@ class HomePage extends StatelessWidget {
         ]),
       ),
       floatingActionButton: IconButton(
-        icon: Icon('home'),
+        icon: IconData(Icon('home')),
       ),
     );
   }
