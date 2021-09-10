@@ -29,6 +29,7 @@ class HomePage extends StatelessWidget {
         child: Icon(Icons.add),
         onPressed: () {
           print('Hola mundo!');
+          conteo = conteo++;
         },
       ),
     );
