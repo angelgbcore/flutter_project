@@ -8,25 +8,21 @@ class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: Text('Título'),
-        centerTitle: true,
-      ),
-      body: Center(
-        child: Column(mainAxisAlignment: MainAxisAlignment.center, children: <Widget>[
-          Text(
-            'Número de taps:',
-            style: estiloTexto,
-          ),
-          Text(
-            '0',
-            style: estiloTexto,
-          ),
-        ]),
-      ),
-      floatingActionButton: IconButton(
-        icon: IconData(1)),
-      ),
-    );
+        appBar: AppBar(
+          title: Text('Título'),
+          centerTitle: true,
+        ),
+        body: Center(
+          child: Column(mainAxisAlignment: MainAxisAlignment.center, children: <Widget>[
+            Text(
+              'Número de taps:',
+              style: estiloTexto,
+            ),
+            Text(
+              '0',
+              style: estiloTexto,
+            ),
+          ]),
+        ));
   }
 }
