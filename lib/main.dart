@@ -8,7 +8,8 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(context) {
     return MaterialApp(
-      home: Text("Hola mundo"),
-    );
+        home: Center(
+      child: Text("Hola mundo"),
+    ));
   }
 }
