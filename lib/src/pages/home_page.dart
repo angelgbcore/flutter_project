@@ -4,6 +4,7 @@ class HomePage extends StatelessWidget {
   final estiloTexto = new TextStyle(
     fontSize: 25,
   );
+  final conteo = 10;
 
   @override
   Widget build(BuildContext context) {
@@ -19,7 +20,7 @@ class HomePage extends StatelessWidget {
             style: estiloTexto,
           ),
           Text(
-            '0',
+            conteo.toString(),
             style: estiloTexto,
           ),
         ]),
