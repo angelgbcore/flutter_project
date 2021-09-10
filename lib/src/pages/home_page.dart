@@ -6,7 +6,7 @@ class HomePage extends StatelessWidget {
     return Scaffold(
         appBar: AppBar(
           title: Text('Título'),
-          centerTitle: true,
+          centerTitle: false,
         ),
         body: Center(
           child: Text('Hola carnal'),
