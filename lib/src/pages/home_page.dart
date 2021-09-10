@@ -9,7 +9,7 @@ class HomePage extends StatelessWidget {
           centerTitle: true,
         ),
         body: Center(
-          child: Column(children: <Widget>[
+          child: Column(mainAxisAlignment: MainAxisAlignment.center, children: <Widget>[
             Text('Número de taps:'),
           ]),
         ));
