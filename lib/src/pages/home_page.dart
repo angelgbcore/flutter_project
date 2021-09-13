@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 
 class HomePage extends StatelessWidget {
-  final _estiloTexto = new TextStyle(
+  final estiloTexto = new TextStyle(
     fontSize: 25,
   );
-  int _conteo = 10;
+  final conteo = 10;
 
   @override
   Widget build(BuildContext context) {
@@ -17,11 +17,11 @@ class HomePage extends StatelessWidget {
         child: Column(mainAxisAlignment: MainAxisAlignment.center, children: <Widget>[
           Text(
             'Número de taps:',
-            style: _estiloTexto,
+            style: estiloTexto,
           ),
           Text(
             '$conteo',
-            style: _estiloTexto,
+            style: estiloTexto,
           ),
         ]),
       ),
