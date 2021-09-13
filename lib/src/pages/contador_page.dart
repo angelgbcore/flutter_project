@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 class ContadorPage extends StatefulWidget {
   @override
-  State<StatefulWidget> createState() => return _ContadorPageState;
+  State<StatefulWidget> createState() => _ContadorPageState;
 }
 
 class _ContadorPageState extends State<ContadorPage> {
