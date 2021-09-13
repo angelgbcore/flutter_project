@@ -35,6 +35,8 @@ class _ContadorPageState extends State<ContadorPage> {
         onPressed: () {
           print('Hola mundo!');
           _conteo++;
+
+          setState(() {});
         },
       ),
     );
