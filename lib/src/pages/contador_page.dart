@@ -9,7 +9,7 @@ class _ContadorPageState extends State<ContadorPage> {
   final _estiloTexto = new TextStyle(
     fontSize: 25,
   );
-  int _conteo = 10;
+  int _conteo = 0;
 
   @override
   Widget build(BuildContext context) {
