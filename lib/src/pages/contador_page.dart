@@ -33,7 +33,7 @@ class _ContadorPageState extends State<ContadorPage> {
       floatingActionButton: FloatingActionButton(
         child: Icon(Icons.add),
         onPressed: () {
-          print('Hola mundo!');
+          //print('Hola mundo!');
           _conteo++;
 
           setState(() {});
