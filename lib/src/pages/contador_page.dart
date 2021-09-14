@@ -61,4 +61,12 @@ class _ContadorPageState extends State<ContadorPage> {
   void _agregar() {
     setState(() => _conteo++);
   }
+
+  void _sustraer() {
+    setState(() => _conteo--);
+  }
+
+  void _reset() {
+    setState(() => _conteo == 0);
+  }
 }
