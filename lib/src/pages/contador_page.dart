@@ -47,6 +47,9 @@ class _ContadorPageState extends State<ContadorPage> {
         child: Icon(Icons.add_alarm),
         onPressed: null,
       ),
+      SizedBox(
+        width: 5.0,
+      ),
       FloatingActionButton(
         child: Icon(Icons.add_alarm),
         onPressed: null,
