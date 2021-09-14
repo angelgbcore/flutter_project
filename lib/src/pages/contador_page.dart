@@ -30,15 +30,14 @@ class _ContadorPageState extends State<ContadorPage> {
           ),
         ]),
       ),
-      floatingActionButton: FloatingActionButton(
-        child: Icon(Icons.add),
-        onPressed: () {
-          //print('Hola mundo!');
-          _conteo++;
+      floatingActionButton: _crearBotones(),
+    );
+  }
 
-          setState(() {});
-        },
-      ),
+  Widget _crearBotones() {
+    return FloatingActionButton(
+      child: Icon(Icons.add_alarm),
+      onPressed: null,
     );
   }
 }
