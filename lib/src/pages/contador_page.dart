@@ -37,21 +37,21 @@ class _ContadorPageState extends State<ContadorPage> {
   Widget _crearBotones() {
     return Row(mainAxisAlignment: MainAxisAlignment.end, children: <Widget>[
       FloatingActionButton(
-        child: Icon(Icons.add_alarm),
+        child: Icon(Icons.exposure_zero),
         onPressed: null,
       ),
       SizedBox(
         width: 5.0,
       ),
       FloatingActionButton(
-        child: Icon(Icons.add_alarm),
+        child: Icon(Icons.remove),
         onPressed: null,
       ),
       SizedBox(
         width: 5.0,
       ),
       FloatingActionButton(
-        child: Icon(Icons.add_alarm),
+        child: Icon(Icons.add),
         onPressed: null,
       ),
     ]);
